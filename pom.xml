@@ -12,6 +12,18 @@
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <karate.version>1.5.0</karate.version>
   </properties>
+
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.karatelabs/karate-junit5 -->
+    <dependency>
+      <groupId>io.karatelabs</groupId>
+      <artifactId>karate-junit5</artifactId>
+      <version>${karate.version}</version>
+    </dependency>
+  </dependencies>
+
 
 </project>
