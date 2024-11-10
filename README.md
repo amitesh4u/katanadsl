@@ -55,3 +55,15 @@ This can be easily achieved with the following tweak to your maven `<build>` sec
 ```
 
 This is very common in the world of Maven users and keep in mind that these are tests and not production code.  
+
+
+## Application
+For initial testing we will be using the site
+https://conduit.bondaracademy.com/
+
+### APIS
+- GET https://conduit-api.bondaracademy.com/api/tags  - To get all tags
+- GET
+  https://conduit-api.bondaracademy.com/api/articles?limit=10&offset=0  - To get articles
+- GET https://conduit-api.bondaracademy.com/api/articles/Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1  - To Fetch the article
+- GET https://conduit-api.bondaracademy.com/api/articles/Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1/comments   - To fetch all comments of the article
